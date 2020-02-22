@@ -4,12 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
+flake8 = "*"
 
 [packages]
 tensorflow-gpu = "*"
 jupyterlab = "==1.2.4"
-black = "*"
-flake8 = "*"
 scikit-learn = "*"
 pandas = "*"
 numpy = "*"
