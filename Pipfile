@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow-gpu = "*"
+jupyterlab = "==1.2.4"
+black = "*"
+flake8 = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+gym-retro = "*"
+ipywidgets = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
